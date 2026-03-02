@@ -14,14 +14,14 @@ GonzaloA/fake_news (HuggingFace)
 pip install torch transformers datasets shap
 
 ## Citation
-[Tera paper aane ke baad add karna]
+
 ```
 
 ---
 
-## References Kahan Se Loge — Exact Sources
+## References  — Exact Sources
 
-### Source 1 — Google Scholar (Sabse Important)
+### Source 1 — Google Scholar 
 ```
 scholar.google.com
 Search: "multimodal fake news detection"
@@ -30,34 +30,34 @@ Search: "explainable AI fake news"
 Search: "reinforcement learning text classification"
 
 Filter: 2020-2025 (recent papers only)
-Cite button → BibTeX copy karo
+Cite button → BibTeX 
 ```
 
 ### Source 2 — Semantic Scholar
 ```
 semanticscholar.org
-Same searches — aur papers milenge
+Same searches 
 Export → BibTeX
 ```
 
-### Source 3 — IEEE Xplore (TNNLS ke liye Critical)
+### Source 3 — IEEE Xplore TNNLS
 ```
 ieeexplore.ieee.org
 Search: "fake news detection neural network"
-IEEE papers cite karna TNNLS mein
-extra weight deta hai
+IEEE papers cite on TNNLS 
+extra weight 
 ```
 
 ### Source 4 — ArXiv (Latest Research)
 ```
 arxiv.org/search
 cs.AI + cs.CL sections
-2023-2025 ke papers
+2023-2025  papers
 ```
 
 ---
 
-## 20 Must-Cite Papers Teri Research Ke Liye
+## 20 Must-Cite Papers Research
 ```
 BERT Related:
 1. Devlin et al. (2019) — BERT paper [MUST]
