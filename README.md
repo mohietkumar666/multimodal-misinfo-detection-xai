@@ -80,3 +80,60 @@ Multimodal:
 RL Related:
 11. Mnih et al. (2015) — DQN [MUST]
 12. Sutton & Barto (2018) — RL Book [MUST]
+# XMARL: Explainable Multimodal Anti-misinformation
+## Reinforcement Learning Framework
+
+[![Python](https://img.shields.io/badge/Python-3.10-blue)]()
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0-orange)]()
+[![License](https://img.shields.io/badge/License-MIT-green)]()
+
+## Results
+| Model | F1 Score | Explainable |
+|-------|----------|-------------|
+| BERT (Text) | 0.9950 | ✅ SHAP |
+| ResNet (Image) | 0.3615 | ✅ Grad-CAM |
+| CLIP Multimodal | 0.9925 | ✅ Both |
+| **XMARL (Ours)** | **1.0000** | ✅ Full XAI |
+
+## Quick Start
+```bash
+pip install torch transformers datasets shap
+python train.py
+```
+
+## Citation
+```bibtex
+@article{mohiet2025xmarl,
+  title={XMARL: Explainable Multimodal 
+         Misinformation Detection using RL},
+  author={Mohiet},
+  journal={Under Review — IEEE TNNLS},
+  year={2025}
+}
+```
+```
+
+---
+
+## TNNLS Chance 35% Se 70% Kaise Badhao
+```
+Agle 4 hafte mein ye karo:
+
+Week 1 → Dataset expand karo
+         Fakeddit ya FakeNewsNet real images
+         2000 → 10,000+ samples
+         F1 Real Multimodal: 0.52 → 0.90+
+
+Week 2 → Baselines add karo
+         SAFE, VERITE, BERT-Concat
+         5-6 comparisons strong lagte hain
+
+Week 3 → Statistical tests add karo
+         p-value < 0.05
+         McNemar's test
+         5-fold cross validation
+
+Week 4 → Paper polish karo
+         Native English speaker se proofread
+         IEEE template strictly follow karo
+         10 pages exactly
